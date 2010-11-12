@@ -19,4 +19,7 @@ libxml.Element.prototype.fetch = function(cssSelector) {
     return this.search(cssSelector)[0];
 };
 
+for (var i in libxml) {
+	exports[i] = libxml[i];
+}
 exports.css2xpath = css2xpath;
