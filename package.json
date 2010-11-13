@@ -1,0 +1,13 @@
+{
+	"name"			: "libxmlext",
+	"version"		: "v1.0.0",
+	"description"	: "Extensions to libxmljs to add CSS XPath selectors",
+	"homepage"		: "https://github.com/polotek/libxmljs",
+	"keywords"		: ["libxmljs", "xml"],
+	"author"        : "Marco Rogers",
+	"maintainers"   : ["Eugene Ware <eugene@noblesamurai.com>"],
+	"licenses"      : ["MIT"],
+    "dependencies"  : { "libxmljs": ">=0.4.1" },
+	"main"			: ".",
+	"repository"	: { "type": "git", "url": "http://github.com/noblesamurai/libxmlext.git" }
+}
