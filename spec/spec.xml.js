@@ -4,6 +4,7 @@ beforeEach(function() {
 	}
 
 	util = require("util");
+	require.paths.push('..');
 	libxml = require("libxmlext");
 	css2xpath = libxml.css2xpath;
 });
